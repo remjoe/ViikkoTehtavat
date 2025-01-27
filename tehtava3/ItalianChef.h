@@ -10,7 +10,7 @@ private:
     int water;
     int makepizza();
 public:
-    std::string ItalianChef;
+    ItalianChef(std::string);
     bool askSecret(std::string, int, int);
 };
 
